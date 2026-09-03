@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #d2d4d4;
+}
+
+header {
+  background: #6e3ad5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+nav button {
+  margin: 8px;
+  padding: 12px 18px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.section {
+  display: none;
+  background: rgb(255, 255, 255);
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.active {
+  display: block;
+}
+
+input,
+select,
+button {
+  margin: 8px 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: #002aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #676767;
+}
